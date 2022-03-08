@@ -12,7 +12,7 @@ For step 2: Use the Prophet model to build a univariate analysis on the volume d
 
 
 
-**Steps Taken**
+**Steps Taken:**
 1. Importing all the required libraries into the Jupyter notebook (for eg, numpy, pandas, matplotlib, seaborn)
 2. Removing the fields where Volume_KHL is null, performing descriptive analysis, for example to see the number of unique values, data types used etc.
 3. Plotting the correlation matrix for all the variables. Mainly focus on how independent variables like the country’s GDP, certain holidays, temperatures are correlating/varying with the Beer Volume.
@@ -21,7 +21,7 @@ For step 2: Use the Prophet model to build a univariate analysis on the volume d
 6. Based on the trend observed (stationary or non-stationary), building an additive auto regression model for time series forecasting. Made use of the FBProphet library to build a univariate analysis for Volume data. Equation used by Prophet: y(t) = g(t) + s(t) + h(t) + ϵ; where: g(t) = overall growth trend; s(t) = yearly seasonality, weekly seasonality; h(t) = holiday effect
 
 
-**Final Solution**
+**Final Solution:**
 It was observed that the sales are higher in the month of December. This is because major holidays like Christmas, new years and Feast_of_the_Immaculate_Conception fall in this month.
 It can be seen that the Average and minimum temperatures have a high correlation to the volume, i.e. the consumption is higher when the temperature is higher and vice versa. 
 It can also be observed from the graphs that macro-economic factors like the GDP does not affect the trend much, nor does sports holidays like FIFA. 
