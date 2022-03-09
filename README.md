@@ -1,5 +1,7 @@
 # Beer-Volume
 
+Link for the second part : https://colab.research.google.com/drive/1Fv9DoUXPb8yAAaKCdpyREldhFjEERXKa
+
 **Understanding:**
 We have to analyse the Beer Volume data and see how the growth pattern is for the dependent variable i.e Volume_KHL (Volume of the beer in hectolitres). 
 For the first step of the problem i.e. building data insights: We have several independent - both numerical and nominal variables in the dataset given. We can perform Exploratory data analysis to understand how the Volume varies based on different situations, for example: if the temperature is high, is the beer consumption also high?; if the GDP of the country of interest (here Argentina) goes down, does it affect the beer consumption; is the beer consumption higher on certain days like during the FIFA season and so on.
