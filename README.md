@@ -1,6 +1,6 @@
 # Beer-Volume
 
-Link for the second part : https://colab.research.google.com/drive/1Fv9DoUXPb8yAAaKCdpyREldhFjEERXKa
+Link for the second part (use colab to view the interactive graph) : https://colab.research.google.com/drive/1Fv9DoUXPb8yAAaKCdpyREldhFjEERXKa
 
 **Understanding:**
 We have to analyse the Beer Volume data and see how the growth pattern is for the dependent variable i.e Volume_KHL (Volume of the beer in hectolitres). 
